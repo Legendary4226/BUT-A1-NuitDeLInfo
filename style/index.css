@@ -2,5 +2,28 @@
     margin:0;
     padding: 0;
     list-style: none;
-    color: black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    padding: 50px 10vw;
+    background-color: red;
+    width: 100vh;
+}
+
+main h1{
+    font-size: 1.5em;
+    color: #45f822;
+}
+
+main h2{
+    font-size: 1.4em;
+    color: #ffffff;
+}
+
+main p{
+    font-size: 1.3em;
+    color: #4cffff;
 }
