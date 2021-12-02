@@ -7,12 +7,15 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    box-sizing: border-box;
-    flex-grow: 1 1;
+    max-width: 60%;
+}
+
+.info_principale > * {
+    padding-top: 15px;
 }
 
 .photo_profil{
-    height: 200px;
+    height: 300px;
     width: 200px;
     background-color: blue;
 }
@@ -26,4 +29,12 @@ section{
     width: 75px;
     background-color: green;
     color: white;
+}
+
+.info_secondaire {
+    flex-direction: column;
+}
+
+.info_secondaire > h2 {
+    padding-top: 100px;
 }
