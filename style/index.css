@@ -52,12 +52,12 @@ nav{
     position: sticky;
     top: 0px;
     height: 4rem;
-    width: 100vh;
-    font-size: 1.1em;
-    background-color: blue;
+    width: 141vh;
+    font-size: 1.3em;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    border: 2px solid #2e0cc2;
 }
 
 nav a{
@@ -67,4 +67,9 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav a:hover{
+    text-shadow: 1px 1px 2px #45f822, 0 0 1em #45f822, 0 0 0.2em #45f822;
+    color: #ffffff;
 }

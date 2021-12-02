@@ -7,11 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <a href="../index.html">Accueil</a>
-        <a class="border" href="faq.html">Questionnaire</a>
-        <a href="presentation_campus.html">Présentation campus</a>
-    </nav>
+    <?php
+    include("parts/menu.html")
+    ?>
     <main>
         <article>
             <hr>
