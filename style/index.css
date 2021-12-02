@@ -2,22 +2,28 @@
     margin:0;
     padding: 0;
     list-style: none;
-    background-color: black;
 }
 
 body{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    background-color: black;
 }
 
 hr{
-    color: #2e0cc2;
+    border: none;
+    background-color: #2e0cc2;
+    height: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 main{
     padding: 50px 10vw;
     background-color: red;
     width: 100vh;
+    margin: auto;
 }
 
 main h1{
@@ -33,4 +39,25 @@ main h2{
 main p{
     font-size: 1.3em;
     color: #4cffff;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    height: 4rem;
+    width: 100vh;
+    font-size: 1.1em;
+    background-color: blue;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    color: #45f822;
+    height: inherit;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
