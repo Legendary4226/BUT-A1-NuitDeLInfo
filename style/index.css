@@ -1,14 +1,23 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src:  url('Minitel.ttf') format('truetype');
+  }
+
 *{
     margin:0;
     padding: 0;
     list-style: none;
+    color: #fff;
+    font-family: 'MyWebFont';
 }
 
 body{
+    min-height: 100vh;
     display: flex;
     justify-content: center;
+    background-color: #000;
     flex-direction: column;
-    background-color: black;
+
 }
 
 hr{
@@ -20,8 +29,7 @@ hr{
 }
 
 main{
-    padding: 50px 10vw;
-    background-color: red;
+    border: dotted #ffffff;
     width: 100vh;
     margin: auto;
 }
@@ -40,7 +48,6 @@ main p{
     font-size: 1.3em;
     color: #4cffff;
 }
-
 nav{
     position: sticky;
     top: 0px;
