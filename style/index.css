@@ -2,21 +2,24 @@
     margin:0;
     padding: 0;
     list-style: none;
-    background-color: black;
+    color:#ffffff
 }
 
 body{
+    min-height: 100vh;
     display: flex;
     justify-content: center;
+    background-color: #000;
 }
 
 hr{
-    color: #2e0cc2;
+    border:none;
+    height: 4px;
+    background-color: #2e0cc2;
 }
 
 main{
-    padding: 50px 10vw;
-    background-color: red;
+    border: dotted #ffffff;
     width: 100vh;
 }
 
