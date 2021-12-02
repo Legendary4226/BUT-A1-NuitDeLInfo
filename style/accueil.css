@@ -1,0 +1,20 @@
+select,select>option{
+    color: #000;
+}
+form li{
+    display: flex;
+    row-gap: 1em;
+}
+
+form li>label{
+    width: 15em;
+    color: #45f822;
+}
+form li>input{
+    flex-grow: 1;
+    color:#4cffff;
+}
+input{
+    border:none;
+    background-color: #000;
+}
