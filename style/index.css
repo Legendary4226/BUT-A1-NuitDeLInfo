@@ -102,6 +102,13 @@ input{
     background-color: #000;
 }
 
+nav img{
+    height: 70px;
+    width: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 form ul{
     display: flex;
     flex-direction: column;
