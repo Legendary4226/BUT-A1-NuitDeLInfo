@@ -3,3 +3,15 @@
     <a class="border" href="acceuil.php">ACCUEIL</a>
     <a href="ajout_modification.php">AJOUTER</a>
 </nav>
+
+<script>
+    if ( window.addEventListener ) {
+        var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
+        window.addEventListener("keydown", function(e){
+        kkeys.push( e.keyCode );
+        if ( kkeys.toString().indexOf( konami ) >= 0 ) {
+                window.location = "https://fr.wikipedia.org/wiki/Titanic";
+                }
+        }, true);
+    }
+</script>
