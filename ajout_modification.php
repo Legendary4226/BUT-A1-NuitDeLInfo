@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style/index.css">
-        <link rel="stylesheet" href="style/accueil.css">
+        <link rel="stylesheet" href="style/ajouter.css">
         <link rel="icon" href="style/images/Logo_Vyraj_80x80.png" />
     </head>
     <body>
