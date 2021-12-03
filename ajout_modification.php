@@ -7,9 +7,11 @@
         <link rel="icon" href="style/images/Logo_Vyraj_80x80.png" />
     </head>
     <body>
-        <header>
+        
+        <?php
+            include("parts/menu.html")
+        ?>
 
-        </header>
         <main>
         <?php
             include("parts/modifier_ajouter.html");
