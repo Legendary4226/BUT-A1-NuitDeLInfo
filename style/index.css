@@ -17,7 +17,7 @@ body{
     justify-content: center;
     background-color: #000;
     flex-direction: column;
-    align-items: center;
+
 }
 
 hr{
@@ -32,9 +32,6 @@ main{
     border: dotted #ffffff;
     width: 100vh;
     margin: auto;
-    word-wrap: break-word;
-    box-sizing: border-box;
-    padding: 15px;
 }
 
 main h1{
@@ -51,17 +48,17 @@ main p{
     font-size: 1.3em;
     color: #4cffff;
 }
+
 nav{
     position: sticky;
     top: 0px;
-    background-color: #000;
-    height: 5rem;
+    height: 4rem;
     width: 100vh;
-    font-size: 1.3em;
+    font-size: 1.1em;
+    background-color: blue;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    border: 2px solid #2e0cc2;
 }
 
 nav a{
@@ -73,8 +70,28 @@ nav a{
     align-items: center;
 }
 
-nav a:hover{
-    text-shadow: 1px 1px 2px #45f822, 0 0 1em #45f822, 0 0 0.2em #45f822;
-    color: #ffffff;
-    text-decoration: underline;
+select,select>option{
+    color: #000;
+}
+form li{
+    display: flex;
+    row-gap: 1em;
+}
+
+form li>label{
+    width: 15em;
+    color: #45f822;
+}
+form li>input{
+    flex-grow: 1;
+    color:#4cffff;
+}
+
+summary{
+    cursor: pointer;
+}
+
+input{
+    border:none;
+    background-color: #000;
 }
