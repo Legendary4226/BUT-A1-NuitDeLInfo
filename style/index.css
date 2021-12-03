@@ -104,3 +104,10 @@ input{
     border:none;
     background-color: #000;
 }
+
+nav img{
+    height: 70px;
+    width: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
