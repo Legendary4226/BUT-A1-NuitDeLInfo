@@ -52,3 +52,15 @@
   background-color: #000;
 }
 /*# sourceMappingURL=dynamic-form.css.map */
+
+form button{
+  background-color: #000;
+  border: solid #fff;
+  color:#45f822;
+}
+fieldset{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  text-transform: uppercase;
+}
