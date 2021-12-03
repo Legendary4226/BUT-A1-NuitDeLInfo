@@ -42,11 +42,15 @@ section{
     border-bottom:solid;
 }
 
-input {
-    color:#4cffff;
+.boutton {
+    display: flex;
+    justify-content: end;
+}
+
+.boutton > input {
     background-color: #000000;
-    border-top: dotted;
-    border-bottom: dotted;
+    border-top: solid #2e0cc2;
+    border-bottom: solid #2e0cc2;
     border-left: none;
     border-right: none;
 }

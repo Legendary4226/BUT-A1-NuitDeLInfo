@@ -48,7 +48,9 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quisquam porro explicabo voluptatem, temporibus veritatis delectus, laboriosam vitae laborum debitis aliquid dolorem sint laudantium in nisi quos aperiam architecto consequuntur earum suscipit. Quae iure molestias minus sunt rerum.</p>
             </section>
 
-            <input type="button" value="modifier information">
+            <div class="boutton">
+                <input type="button" value="modifier information">
+            </div>
 
         </main>
 
