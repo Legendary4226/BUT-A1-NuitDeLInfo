@@ -4,14 +4,14 @@ function toggle_search(element_id, fieldset) {
 
     if(clicked_button.classList.contains("activated")) {
         // Supprimer le champ
-        let id = element_id + "-input"
+        let id = element_id + "-input" + fieldset
         document.getElementById(id + "-container").remove()
     } else {
         // Ajouter le champ
         var input = document.createElement("input")
         input.setAttribute("type", "text")
         input.required = true
-        let id = element_id + "-input"
+        let id = element_id + "-input" + fieldset
         input.setAttribute("id", id)
         input.setAttribute("name", element_id)
 
