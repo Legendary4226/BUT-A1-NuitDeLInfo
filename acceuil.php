@@ -7,9 +7,9 @@
         <link rel="icon" href="style/images/Logo_Vyraj_80x80.png" />
     </head>
     <body>
-        <header>
-
-        </header>
+        <?php
+            include("parts/menu.html")
+        ?>
         <main>
         <?php
             include("parts/recherche.html");

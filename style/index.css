@@ -82,10 +82,7 @@ nav a:hover{
 select,select>option{
     color: #000;
 }
-form li{
-    display: flex;
-    row-gap: 1em;
-}
+
 
 form li>label{
     width: 15em;
@@ -103,4 +100,16 @@ summary{
 input{
     border:none;
     background-color: #000;
+}
+
+form ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+form h2, summary{
+    padding-bottom: 1em;
+}
+summary{
+    padding-top: 1em;
 }

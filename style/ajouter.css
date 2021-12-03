@@ -1,3 +1,4 @@
 #etatcivil>section>ul>li:last-child{
     display: flex;
+    flex-direction: column;
 }

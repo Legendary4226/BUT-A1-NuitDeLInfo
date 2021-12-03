@@ -8,7 +8,9 @@
     </head>
     <body>
         <header>
-
+        <?php
+            include("parts/menu.html")
+        ?>
         </header>
         <main>
         <?php
