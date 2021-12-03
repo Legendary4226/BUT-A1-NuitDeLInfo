@@ -8,16 +8,22 @@
     </head>
 
     <body>
+
+        <?php
+            include("parts/menu.html")
+        ?>
+
         <main>
 
             <section>
                 <div class="info_principale">
-                    <h1>Pierre Louis FICQUET</h1>
+                    <h1>PIERRE LOUIS FICQUET</h1>
                     <h2>Chef pilote</h2>
                     <h2>22 sauvetages effectués</h2>
                     <h2>3 équipages et 85 personnes lui doivent la vie</h2>
                 </div>
 
+                <!--remplacer div par img-->
                 <div class="photo_profil">
                 </div>
             </section>
@@ -41,6 +47,10 @@
                 <h2>Actions de sauvetage</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quisquam porro explicabo voluptatem, temporibus veritatis delectus, laboriosam vitae laborum debitis aliquid dolorem sint laudantium in nisi quos aperiam architecto consequuntur earum suscipit. Quae iure molestias minus sunt rerum.</p>
             </section>
+
+            <div class="boutton">
+                <input type="button" value="modifier information">
+            </div>
 
         </main>
 
