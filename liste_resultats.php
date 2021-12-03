@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/liste_resultats.css">
     <link rel="icon" href="style/images/Logo_Vyraj_80x80.png">
-    <title>Document</title>
+    <title>Résultats</title>
 </head>
 <body>
     <?php
