@@ -1,0 +1,54 @@
+#search {
+    display: flex;
+    flex-direction: column;
+
+
+    & button {
+        background-color: #000;
+        margin-left: 1rem;
+
+        padding: .5rem;
+
+        display: flex;
+    }
+
+    & button::before {
+        content: '+';
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    & button.activated {
+        & p {
+            color: #888888;
+        }
+
+        &::before {
+            content: '-';
+            font-size: 1rem;
+            font-weight: bold;
+        }
+    }
+
+
+    & div.menu {
+        display: flex;
+    }
+
+    & fieldset {
+        display: flex;
+        flex-direction: column;
+
+        margin: 2rem 0;
+        padding: 1rem 0;
+    }
+    & fieldset span > input {
+        background-color: #000;
+    }
+
+
+    & input[type="submit"] {
+        width: 10rem;
+        background-color: #000;
+    }
+}
