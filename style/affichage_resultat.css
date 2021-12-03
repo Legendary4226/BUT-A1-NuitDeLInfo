@@ -1,0 +1,40 @@
+section{
+    padding-top: 75px;
+    display: flex;
+}
+
+.info_principale{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 60%;
+}
+
+.info_principale > * {
+    padding-top: 15px;
+}
+
+.photo_profil{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+}
+
+.photo_medail{
+    justify-content: space-around;
+}
+
+.photo_medail > div{
+    height: 100px;
+    width: 75px;
+    background-color: green;
+    color: white;
+}
+
+.info_secondaire {
+    flex-direction: column;
+}
+
+.info_secondaire > h2 {
+    padding-top: 100px;
+}
